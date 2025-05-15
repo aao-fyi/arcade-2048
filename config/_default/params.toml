@@ -1,8 +1,55 @@
 description = 'Join the numbered tiles to reach 2048!'
 
+# Bootstrap
+[bootstrap]
+  javascript = true
+
 # PostCSS
 [postCSS]
   state = true
 
+# Header
+[header]
+  state = true
+  brandLogo = false
+  brandText = true
+  fixedTop = true
+
+# Banner
+[banner]
+  home = false
+  section = false
+  single = false
+
+# Sidebar
+[sidebar]
+  home = false
+  section = false
+  single = false
+
+# Breadcrumbs
+[breadcrumb]
+  home = false
+  section = false
+  single = false
+
+# Heading
+[heading]
+  home = false
+  section = false
+  single = false
+  description = false
+
+# Footer
 [footer]
   state = false
+  stick = false
+
+# Manifest
+[manifest]
+  state = true
+  background = "#333"
+
+# Robots
+[robots]
+  llmsTXT = false
