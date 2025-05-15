@@ -34,6 +34,12 @@ enableRobotsTXT = true
   [[module.imports.mounts]]
     source = 'compass/stylesheets/'
     target = 'assets/scss/sassy-math/'
+  # Logo
+  [[module.imports]]
+    path = 'codeberg.org/aao-fyi/project-logos'
+  [[module.imports.mounts]]
+    source = 'arcade-2048'
+    target = 'assets/img/logo/'
 
 # Menus
 [menu]

@@ -3,6 +3,7 @@ module gitlab.com/aao-fyi/arcade-2048
 go 1.20
 
 require (
+	codeberg.org/aao-fyi/project-logos v0.0.0-20250515071859-d3b25a65b987 // indirect
 	codeberg.org/aao-fyi/shock v0.0.0-20250515044326-13241b7ebf8a // indirect
 	github.com/at-import/Sassy-math v1.5.1 // indirect
 	github.com/lucide-icons/lucide v0.0.0-20241001201341-542507f8358c // indirect
