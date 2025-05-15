@@ -1,4 +1,4 @@
-module gitlab.com/aao-fyi/arcade-2048
+module codeberg.org/aao-fyi/arcade-2048
 
 go 1.20
 
