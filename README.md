@@ -8,7 +8,7 @@ Join the numbered tiles to reach **2048**! Use your arrow keys or swipe to move 
 ![screenshot](assets/img/screenshot.png)
 
 ## Issues
-Open new issues in the [GitLab Issue Tracker](https://gitlab.com/aao-fyi/2048/-/issues).
+Open new issues in the [Codeberg Issue Tracker](https://codeberg.org/aao-fyi/arcade-2048/issues).
 
 ## License
-2048 is distributed under the [MIT License](https://gitlab.com/aao-fyi/2048/-/blob/main/LICENSE).
+2048 is distributed under the [MIT License](https://codeberg.org/aao-fyi/arcade-2048/src/branch/main/LICENSE).
