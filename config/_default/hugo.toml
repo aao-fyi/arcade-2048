@@ -43,11 +43,15 @@ enableRobotsTXT = true
 
 # Menus
 [menu]
-  [[menu.info]]
+  [[menu.footer]]
     name = 'Source'
-    url = 'https://codeberg.org/aao-fyi/2048'
+    url = 'https://codeberg.org/aao-fyi/arcade-2048'
     weight = 10
-  [[menu.info]]
+  [[menu.footer]]
     name = 'Privacy'
     url = 'https://aao.fyi/privacy/'
     weight = 20
+  [[menu.footer]]
+    name = 'Terms'
+    url = 'https://aao.fyi/terms/'
+    weight = 30

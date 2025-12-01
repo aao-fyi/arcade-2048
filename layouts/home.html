@@ -46,7 +46,7 @@
       <p>{{ .Site.Params.Description }}</p>
       <p><strong>How to play:</strong> Use your <strong>arrow keys or swipe</strong> to move the tiles. When two tiles with the same number collide, <strong>merge into one!</strong></p>
 
-      {{ with .Site.Menus.info }}
+      {{ with .Site.Menus.footer }}
         <ul class="list-inline list-unstyled">
         {{ range . }}
           <li class="list-inline-item">
@@ -57,7 +57,6 @@
       {{ end }}
 
       <p>&copy; {{ .Site.Copyright }}</p>
-      {{ partial "footer" . }}
     </div>
   </div>
 
@@ -106,6 +105,7 @@
 {{ end }}
 
 {{ define "foot" }}
+  {{ $hammerJS := resources.GetRemote "https://github.com/hammerjs/hammer.js/raw/c6a0b6fcfeafa4c92bcfa32305e18e36904be5bf/hammer.min.js" }}
   {{ $keyboard_input_manager := resources.Get "js/keyboard_input_manager.js" }}
   {{ $html_actuator := resources.Get "js/html_actuator.js" }}
   {{ $grid := resources.Get "js/grid.js" }}
