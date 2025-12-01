@@ -3,9 +3,6 @@ Fork of [Gabriele Cirulli's 2048](https://github.com/gabrielecirulli/2048) - a g
 
 + [arcade.aao.fyi/2048](https://arcade.aao.fyi/2048)
 
-## Directions
-Join the numbered tiles to reach **2048**! Use your arrow keys or swipe to move the tiles. When two tiles with the same number collide, they merge into one.
-
 ## Screenshot
 ![screenshot](assets/img/screenshot.png)
 
