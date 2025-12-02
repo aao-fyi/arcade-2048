@@ -37,9 +37,9 @@
 
 {{ define "main" }}
   <div id="info-2048-offcanvas" class="offcanvas offcanvas-end" tabindex="-1">
-    <div class="offcanvas-header">
-      <h1 class="offcanvas-title">{{ .Site.Title }}</h1>
-      <button type="button" class="btn" data-bs-dismiss="offcanvas" title="Close" aria-label="Close">{{ partial "icon" "x" }}</button>
+    <div class="offcanvas-header row">
+      <h1 class="offcanvas-title col-9">{{ .Site.Title }}</h1>
+      <button type="button" class="btn col-3 fs-2 lh-1" data-bs-dismiss="offcanvas" title="Close" aria-label="Close">{{ partial "icon" "x" }}</button>
     </div>
 
     <div class="offcanvas-body">
