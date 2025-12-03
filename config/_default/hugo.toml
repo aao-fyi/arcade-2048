@@ -36,9 +36,9 @@ enableRobotsTXT = true
     target = 'assets/scss/sassy-math/'
   # Logo
   [[module.imports]]
-    path = 'codeberg.org/aao-fyi/project-logos'
+    path = 'gitlab.com/aao-fyi/gitlab-profile'
   [[module.imports.mounts]]
-    source = 'arcade-2048'
+    source = 'logos/arcade-2048'
     target = 'assets/img/logo/'
 
 # Menus
