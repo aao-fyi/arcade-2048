@@ -1,12 +1,12 @@
 description = 'Join the numbered tiles to reach 2048!'
 
-# Bootstrap
-[bootstrap]
-  javascript = true
-
 # PostCSS
 [postCSS]
   state = true
+
+# Head
+[head]
+  responseHeaders = true
 
 # Header
 [header]
